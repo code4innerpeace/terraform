@@ -35,7 +35,7 @@ terraform {
   backend "s3" {
     region     = "us-east-1"
     bucket     = "<S3 BUCKET NAME TO STORE TERRAFORM STATE>"
-    key        = "GuardDuty/terraform.tfstate"
+    key        = "tf.tfstate"
     encrypt    = true
   }
 }
