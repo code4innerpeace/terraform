@@ -1,3 +1,3 @@
-# TERRAFORM INFRASTRUCTURE 
+# Terraform Infrastructure
 
-##  This project consists of Infrastructure built by me for my POCs using Terraform.
+###  This project consists of Infrastructure built by me using Terraform.
