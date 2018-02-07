@@ -10,7 +10,7 @@ provider "aws.dev" {
 terraform {
   backend "s3" {
     region     = "us-east-1"
-    bucket     = "vijay-tf-state"
+    bucket     = "<S3 BUCKET NAME TO STORE TERRAFORM STATE>"
     key        = "GuardDuty/terraform.tfstate"
     encrypt    = true
   }
