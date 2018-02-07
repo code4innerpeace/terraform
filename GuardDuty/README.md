@@ -25,3 +25,18 @@ variable "aws_member_account_email_id" {
   default = "<AWS ACCOUNT EMAIL ID>"
 }
 ```
+
+#### Additional Changes ####
+
+Update S3 Bucket Name, where you want to store Terraform State. This block is optional, it can be ignored.
+
+```
+terraform {
+  backend "s3" {
+    region     = "us-east-1"
+    bucket     = "<S3 BUCKET NAME TO STORE TERRAFORM STATE>"
+    key        = "GuardDuty/terraform.tfstate"
+    encrypt    = true
+  }
+}
+```
