@@ -2,13 +2,14 @@
 
 ### Overview ###
 
-This terraform code builds 'cloudwatch' rule whose target is 'lambda' which in turn sends GuardDuty events to Splunk.
+This terraform code builds the AWS infrastructure required for SplunkGuardDutyApp.
 
-The lambda code(SplunkGuardDutyApp.zip) which sends events to Splunk is downloaded from Splunk 'GuardDuty' app "https://splunkbase.splunk.com/app/3790/".
+The lambda code(SplunkGuardDutyApp.zip) which sends events to Splunk is downloaded from Splunk 'GuardDuty' app[SplunkGuardDutyApp](https://splunkbase.splunk.com/app/3790/).
 
 #### Terraform Variables ####
 
 SPLUNK_HEC_URL :- URL where events are sent to Splunk.
+
 SPLUNK_HEC_TOKEN :- Splunk HEC Token which can fetched from Splunk console.
 
 ```
