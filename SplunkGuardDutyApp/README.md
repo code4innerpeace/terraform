@@ -4,7 +4,7 @@
 
 This terraform code builds the AWS infrastructure required for SplunkGuardDutyApp.
 
-The lambda code(SplunkGuardDutyApp.zip) which sends events to Splunk is downloaded from Splunk 'GuardDuty' app[SplunkGuardDutyApp](https://splunkbase.splunk.com/app/3790/).
+The lambda code(SplunkGuardDutyApp.zip) which sends events to Splunk is downloaded from [SplunkGuardDutyApp](https://splunkbase.splunk.com/app/3790/).
 
 #### Terraform Variables ####
 
