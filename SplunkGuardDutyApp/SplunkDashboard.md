@@ -4,8 +4,12 @@
 
 This file consists of Splunk Search Strings to build GuardDuty dashboard in Splunk.
 
+<<<<<<< HEAD
 #### Splunk Dashboard Inputs ####
 Format of below lines 'DashBoard Name :- Splunk Search String'
+=======
+#### Inputs ####
+>>>>>>> f138ee47685bde1548ccab0d6c56145deea60705
 
 ```
 Top 10 Event Types :- sourcetype="<SPLUNK SOURCE TYPE>" | top 10 "detail.type"
