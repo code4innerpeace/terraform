@@ -29,6 +29,6 @@ variable "private_subnet_az" {
 }
 
 variable "bastion_host_sg_ingress_cidr_blocks" {
-  type = "list"
+  type    = list(string)
   default = ["1.2.3.4/32"]
 }

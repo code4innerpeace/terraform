@@ -7,5 +7,5 @@ variable "project_name" {
 }
 
 variable "ssm_parameter_store" {
-  default = "test-instance-id"
+  default = "i-060100cc71b5d3bb3"
 }
